@@ -1,0 +1,44 @@
+/* History.css */
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.history-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.history-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Full width */
+    max-width: 600px; /* Limit the max width */
+    background: white; /* White background for the list */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.history-list li {
+    padding: 15px; /* Padding for list items */
+    border-bottom: 1px solid #e0e0e0; /* Light gray border between items */
+}
+
+.history-list li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.history-list li:hover {
+    background-color: #f9f9f9; /* Change background on hover */
+}
+
+.empty-history {
+    font-size: 1.5em;
+    color: #666; /* Gray text color for empty history */
+}
