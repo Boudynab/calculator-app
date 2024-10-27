@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HistoryProvider } from './HistoryContext'; // Import the provider
+import { HistoryProvider } from './HistoryContext'; 
 import Calc from './calc';
-import History from './History'; // Import your history component
-
+import History from './History'; 
 function App() {
     return (
         <HistoryProvider>
@@ -16,5 +15,4 @@ function App() {
         </HistoryProvider>
     );
 }
-
 export default App;

@@ -1,10 +1,9 @@
 import React from 'react';
 import { useHistory } from './HistoryContext';
-import './History.css'; // Import the CSS file
+import './History.css';
 
 const History = () => {
-    const { history } = useHistory(); // Get history from context
-
+    const { history } = useHistory(); 
     return (
         <div className="history-container">
             <h2 className="history-title">Calculation History</h2>
@@ -18,5 +17,4 @@ const History = () => {
         </div>
     );
 };
-
 export default History;
